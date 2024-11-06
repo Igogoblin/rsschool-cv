@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My CV</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="inline">
+        <li class="logo">
+          <a href="https://rs.school/" target="_blank"><img src="./images/RSlogo.png" alt="logoRSSchool"
+              class="logo"></a>
+        </li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <section class="im fl" id="im">
+      <div>
+        <p>Microsoft Windows [Version XX.0.19045.4529]</p>
+        <p>(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.</p>
+        <p>C:\Users\NAME_</p>
+        <h1>Ihar Skavysh</h1>
+        <h2>Frontend Developer</h2>
+      </div>
+      <img src="./images/forCV.jpg" alt="Photo" class="photo">
+    </section>
+    <section class="contacts" id="contacts">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Contacts</h2>
+      <ul>
+        <li>Phone: +998 99 144 1985</li>
+        <li>GitHub: <a href="https://github.com/Igogoblin" target="_blank">@Igogoblin</a></li>
+        <li>Email: <a href="mailto:igogoblin@gmail.com" target="_blank">igogoblin@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/igor-skavysh-b80367238" target="_blank">@igor-skavysh</a>
+        </li>
+        <li>Discord: <a href="https://discord.com/users/igo-go.blin#0556" target="_blank">@igogoblin</a></li>
+        <li>CV: <a href="https://igogoblin.github.io/portfolio/" target="_blank">Ihar Skavysh</a></li>
+      </ul>
+    </section>
+    <section class="aboutMe" id="aboutMe">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Self introduction</h2>
+      <p>A few years ago I tried taking java courses, but the courses were raw and it put me on hold as a first negative
+        experience, then a year ago I tried javascript and I loved it.</p>
+      <p>I have several hobbies: astronomy, bodybuilding and travel.</p>
+    </section>
+    <section class="skills" id="skills">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Skills</h2>
+      <ul class="mark">
+        <li>JavaScript, React</li>
+        <li>HTML, CSS, SCSS, Styled-module, Styled-components</li>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+        <li>Redux toolkit</li>
+      </ul>
+    </section>
+    <section class="code" id="code">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Code sample</h2>
+      <pre>
+        <code>
+function firstToLast(str, c) {
+  let results = 0;
+  let firstIndex, lastIndex;
+  str.split("").forEach(function (item, i) {
+    if (c === item) {
+      results++;
+      if (firstIndex === undefined) {
+        firstIndex = i;
+      }
+      lastIndex = i;
+    }
+  });
+  return results === 0 ? '-1' : results === 1 ? '0' : lastIndex - firstIndex;
+}
+        </code>
+      </pre>
+    </section>
+    <section class="education" id="education">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Education</h2>
+      <ul>
+        <li>Belarusian State University of Informatics and Radioelectronics</li>
+        <li>itGit courses: HTML for JavaScript developers and JavaScript</li>
+        <li>code.mu courses: JavaScript</li>
+        <li>shirkinaschuul courses: JavaScript Developer</li>
+      </ul>
+      <h3>Some work done</h3>
+      <ol>
+        <li>Game of cards (pyramid game): <a href="https://igogoblin.github.io/pyramid/" target="_blank">Deploy link</a>
+        </li>
+        <li>Online-store: <a href="https://juchkasia.github.io/online-store/develop/" target="_blank">GitHub link</a>
+        </li>
+        <li>Task manager: <a href="https://igogoblin.github.io/viteDeploy/" target="_blank">Deploy link</a></li>
+        <li>Planets: <a href="https://github.com/Igogoblin/planets" target="_blank">GitHub link</a></li>
+      </ol>
+    </section>
+    <section class="languages" id="languages">
+      <div>
+        <p class="user">YourDevice@DESCTOP-DeviceNumber <span>MINGW64</span> <span class="space">~</span></p>
+      </div>
+      <h2> $ <span>cd: </span>Languages</h2>
+      <ul>
+        <li>Russian (Native)</li>
+        <li>English (A2)</li>
+        <li>Polish (A2)</li>
+      </ul>
+      <p>$ No such file or directory</p>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <ul class="inline">
+      <li>GitHub: <a href="https://github.com/Igogoblin" target="_blank">@Igogoblin</a></li>
+      <li>&copy; 2024</li>
+      <li class="logo">
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="./images/RSlogo.png"
+            alt="logoRSSchool" class="logo"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
